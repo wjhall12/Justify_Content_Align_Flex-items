@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* justify-content: start value aligns the flex items at the beginning of the container. This is default */
+
+.flex-container-1 {
+  display: flex;
+  background-color: lightblue;
+  justify-content: start;
+}
+
+.item1 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin: 10px;
+}
+
+/* justify-content: end value aligns the flex items at the end of the container */
+
+.flex-container-2 {
+  display: flex;
+  background-color: grey;
+  justify-content: end;
+}
+
+.item2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  margin: 10px;
+}
+
+/* justify-content: space-around displays the flex items with space before, between, and after the lines */
+
+.flex-container-3 {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-around;
+}
+
+.item3 {
+  width: 100px;
+  height: 100px;
+  background: black;
+  color: white;
+  margin: 10px;
+}
+
+/* justify-content: space-between displays the flex items with space between the lines */
+
+.flex-container-4 {
+  display: flex;
+  background-color: pink;
+  justify-content: space-between;
+}
+
+.item4 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  color: white;
+  margin: 10px;
+}
+
+/* justify-content: center aligns the flex items at the center of the container: */
+
+.flex-container-5 {
+  display: flex;
+  background-color: orange;
+  justify-content: center;
+}
+
+.item5 {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  color: white;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+h3 {
+  text-align: center;
+}
